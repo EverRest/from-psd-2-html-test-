@@ -1,0 +1,49 @@
+
+@import "fonts.css";
+@import "media.css" screen;
+
+* {
+    -webkit-transition: all 0.5s ease-out 0.3s;
+    -moz-transition: all 0.5s ease-out 0.3s;
+    -o-transition: all 0.5s ease-out 0.3s;
+    transition: all 0.5s ease-out 0.3s;
+}
+
+/* .wrapper */
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 0 0 121px 0;
+    background-color: rgba(21,41,56,1);
+    color: #fff;
+}
+
+/* .header */
+
+.header {
+    padding-top: 42px;
+    height: 93px;
+    line-height: 93px;
+}
+
+/* .logo */
+
+.header .logo {
+    float: left;
+    height: 52px;
+    padding-left: 84px;
+    background: url('../img/logo.png') no-repeat 0 0;
+}
+
+.header .logo p {
+    margin: 0;
+    padding: 0;
+}
+
+/* .callback */
+
+.header .callback {
+    float: right;
+}
