@@ -40,6 +40,12 @@
 .header .logo p {
     margin: 0;
     padding: 0;
+    line-height: 1.6em;
+}
+
+.header .logo span {
+    display: block;
+    float: none;
 }
 
 /* .callback */
